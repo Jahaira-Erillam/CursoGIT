@@ -23,7 +23,7 @@ jobs:
           ng test --watch=false
           ng build --prod
           echo "run test and build angular app"
-      - name: copy build to customer.back/src/main/resources/static folder
-        run: |
-          cp -R disti/customer-front/* ../customer-back/src/main/resources/static/
-          echo "copy build to customer.back/src/main/resources/static folder"
+     #- name: copy build to customer.back/src/main/resources/static folder
+       # run: |
+        #  cp -R disti/customer-front/* ../customer-back/src/main/resources/static/
+         # echo "copy build to customer.back/src/main/resources/static folder"
